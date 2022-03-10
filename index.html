@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <title>Login</title>
+</head>
+<body>
+    <div class="row m-auto">
+        <div class="col-md-5">
+            <img src="assets/logo.png" alt="logo">
+
+            <div class="form-container">
+                <form>
+                    <div class="row" style="background-color: #212121;">
+                        <img class="icon" src="assets/log-in.png" alt="icon"/><h2>Faça seu login</h2>
+                    </div>
+                    <p class="subtitle">Entre com suas informações de cadastro.</p>
+    
+                    <div class="input-div">
+                        <label class="input-div" for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="Digite seu e-mail" />
+                    </div>
+    
+                    <div class="input-div">
+                        <label class="input-div" for="password">Senha</label>
+                        <input type="text" id="password" name="password" placeholder="Digite sua senha" />
+                    </div>
+    
+                    <div className="checkbox-divs">
+                        <div class="row p-2" style="background-color: #212121;">
+                            <input type="checkbox" id="scales" name="scales" style="width:2rem;"/>
+                            <label  class="col-md-5" style="background-color: #212121;" for="scales">Lembre-me</label>
+                            <p class="link col-md-5">Esqueci minha senha</p>
+                        </div>
+                    </div>
+    
+                    <button class="btn">Entrar</button>
+    
+                    <p class="link text-center">Não tem uma conta? Registre-se</p>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-md-7 bg-image"></div>
+    </div>
+</body>
+</html>
