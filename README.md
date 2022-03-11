@@ -1,3 +1,5 @@
-# login-page-sass
+# login-page-sass 🚀
 
-Projeto feito com HTML, CSS, Sass e Bootstrap.
+Pagina de Login feita com HTML, CSS, Sass e Bootstrap.
+
+![capa](assets/screen.png)
